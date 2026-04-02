@@ -10,7 +10,7 @@ const Hero = () => {
         width={1920}
         height={800}
       />
-      <div className="absolute inset-0 bg-background/60" />
+      <div className="absolute inset-0 bg-foreground/70" />
       <div className="relative z-10 text-center px-4">
         <h1 className="font-display text-5xl md:text-7xl font-bold tracking-tight text-foreground mb-4">
           Tipptasemel<br />
