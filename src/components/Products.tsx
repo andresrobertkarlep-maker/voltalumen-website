@@ -1,44 +1,44 @@
 import { useState } from "react";
 
 const categories = [
-  { name: "Interior", products: ["LR1000", "Comp50"] },
-  { name: "Exterior", products: ["MSpot", "Seagull"] },
-  { name: "Decorative", products: ["Stellar", "Reclen"] },
-  { name: "Supply & Controllers", products: ["HE4x4FD", "HE5x3FD"] },
+  { name: "Sisevalgustus", products: ["LR1000", "Comp50"] },
+  { name: "Välisvalgustus", products: ["MSpot", "Seagull"] },
+  { name: "Dekoratiivvalgustus", products: ["Stellar", "Reclen"] },
+  { name: "Toiteallikad ja kontrollerid", products: ["HE4x4FD", "HE5x3FD"] },
 ];
 
 const productDetails: Record<string, { description: string; specs: string[] }> = {
   Comp50: {
-    description: "160mm diameter fixture for retail areas, warehouses, production areas. Can be installed in suspended ceiling through 150mm opening or with star-installation (in group of 3 or 5 units).",
-    specs: ["Power: 50W, ~230VAC", "5000 lumens", "Various characteristics available", "Integrated power supply", "Mass: 1.2kg"],
+    description: "160mm läbimõõduga valgusti kaubanduspindadele, ladudele ja tootmispindadele. Paigaldatakse ripplakke 150mm avasse või tähtpaigaldusena (3 või 5 ühiku kaupa).",
+    specs: ["Võimsus: 50W, ~230VAC", "5000 luumenit", "Erinevad karakteristikud saadaval", "Integreeritud toiteplokk", "Mass: 1,2kg"],
   },
   LR1000: {
-    description: "Interior lighting product family, especially suitable for replacing fluorescent lights. Various beam configurations are available.",
-    specs: ["Power: 50W, ~230VAC", "5000 lumens", "Various characteristics available", "Integrated power supply", "Mass: 2.2kg"],
+    description: "Sisevalgustuse tooteperekond, eriti sobilik luminofoorlampide asendamiseks. Saadaval erinevad valgusjaotused.",
+    specs: ["Võimsus: 50W, ~230VAC", "5000 luumenit", "Erinevad karakteristikud saadaval", "Integreeritud toiteplokk", "Mass: 2,2kg"],
   },
   MSpot: {
-    description: "Powerful and rugged lamp for facade, area and object lighting. Two groups of LEDs enable combination output — wide angle for general lighting and narrow for entrance lighting.",
-    specs: ["Power: 40W, 800mA", "2400 lumens", "Various characteristics", "IP67", "Mass: 1.8kg"],
+    description: "Võimas ja vastupidav valgusti fassaadide, alade ja objektide valgustamiseks. Kaks LED-gruppi võimaldavad kombineeritud väljundit — lainurk üldvalgustuseks ja kitsas nurk sissepääsude valgustamiseks.",
+    specs: ["Võimsus: 40W, 800mA", "2400 luumenit", "Erinevad karakteristikud", "IP67", "Mass: 1,8kg"],
   },
   Seagull: {
-    description: "Lighting fixture for parks, pathways and parking places. Completely tailorable to user needs — specify enclosure color, light temperature or lamp shape. Totally maintenance free.",
-    specs: ["Power: 40W, 800mA", "2200 lumens", "IP67", "Working temp: -40..+35°C", "Lifetime: 10..20 years"],
+    description: "Valgusti parkidele, jalgradadele ja parkimisplatsidele. Täielikult kohandatav — valige korpuse värv, valgustemperatuur või lambi kuju. Täiesti hooldusvaba.",
+    specs: ["Võimsus: 40W, 800mA", "2200 luumenit", "IP67", "Töötemp: -40..+35°C", "Eluiga: 10..20 aastat"],
   },
   Stellar: {
-    description: "Miniature, wide beam light suitable for decorative, furniture, general, bathroom, emergency and hallway lighting. Wide choice of case and light colour.",
-    specs: ["Power: 1-3W", "Current: 350–750mA", "100–180 lumens", "Beam angle: ±45°", "Spring mount installation"],
+    description: "Miniatuurne lainurga valgusti dekoratiiv-, mööbli-, üld-, vannitoa-, hädaolukorra- ja koridorivalgustuseks. Suur valik korpuse ja valguse värve.",
+    specs: ["Võimsus: 1-3W", "Vool: 350–750mA", "100–180 luumenit", "Valgusnurk: ±45°", "Vedrukinnitusega paigaldus"],
   },
   Reclen: {
-    description: "Miniature, narrow beam light for decorative lighting of stairs, floors and small objects. Installation by spring, double-sided tape or glue.",
-    specs: ["Power: 1W, 350mA", "100 lumens", "Beam angle: ±7°", "8 pc per power supply", "Wire length: 200mm"],
+    description: "Miniatuurne kitsa kiirega valgusti treppide, põrandate ja väikeste objektide dekoratiivseks valgustamiseks. Paigaldus vedru, kahepoolse kleeplindi või liimiga.",
+    specs: ["Võimsus: 1W, 350mA", "100 luumenit", "Valgusnurk: ±7°", "8 tk toiteploki kohta", "Juhtme pikkus: 200mm"],
   },
   HE4x4FD: {
-    description: "Power supply and controller unit for LED lighting systems.",
-    specs: ["4-channel output", "Full dimming capability"],
+    description: "Toiteallikas ja kontroller LED-valgustussüsteemidele.",
+    specs: ["4-kanaline väljund", "Täielik hämardusvõimekus"],
   },
   HE5x3FD: {
-    description: "Power supply and controller unit for LED lighting systems.",
-    specs: ["5-channel output", "Full dimming capability"],
+    description: "Toiteallikas ja kontroller LED-valgustussüsteemidele.",
+    specs: ["5-kanaline väljund", "Täielik hämardusvõimekus"],
   },
 };
 
@@ -48,16 +48,15 @@ const Products = () => {
   const detail = productDetails[activeProduct];
 
   return (
-    <section id="products" className="py-24 border-b border-border">
+    <section id="tooted" className="py-24 border-b border-border">
       <div className="container">
-        <h2 className="font-display text-3xl font-semibold text-foreground mb-12">Products</h2>
+        <h2 className="font-display text-3xl font-semibold text-foreground mb-12">Tooted</h2>
 
         <div className="grid md:grid-cols-[240px_1fr] gap-12">
-          {/* Sidebar */}
           <div className="space-y-8">
             {categories.map((cat) => (
               <div key={cat.name}>
-                <h3 className="text-xs uppercase tracking-widest text-primary mb-3">{cat.name}</h3>
+                <h3 className="text-xs uppercase tracking-widest text-accent mb-3">{cat.name}</h3>
                 <div className="space-y-1">
                   {cat.products.map((p) => (
                     <button
@@ -77,11 +76,10 @@ const Products = () => {
             ))}
           </div>
 
-          {/* Detail */}
           <div className="bg-card border border-border rounded-lg p-8">
             <h3 className="font-display text-2xl font-semibold text-foreground mb-4">{activeProduct}</h3>
             <p className="text-secondary-foreground leading-relaxed mb-6">{detail.description}</p>
-            <h4 className="text-xs uppercase tracking-widest text-primary mb-3">Specifications</h4>
+            <h4 className="text-xs uppercase tracking-widest text-accent mb-3">Tehnilised andmed</h4>
             <ul className="space-y-2">
               {detail.specs.map((spec, i) => (
                 <li key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
