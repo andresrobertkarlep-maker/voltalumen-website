@@ -4,6 +4,7 @@ const team = [
   { name: "Madis Reivik", role: "Arendusjuht", email: "madis@voltalumen.com" },
   { name: "Martin Raska", role: "Arendusinsener", email: "martin@voltalumen.com" },
   { name: "Marek Pallav", role: "Süsteemiinsener", email: "marek@voltalumen.com" },
+  { name: "Ivo Hinrikus", role: "Komponendiinsener", email: "ivo@voltalumen.com" },
 ];
 
 const Contact = () => {
@@ -31,6 +32,13 @@ const Contact = () => {
                   info@voltalumen.com
                 </a>
               </div>
+            </div>
+
+            <div className="pt-4 border-t border-border">
+              <h4 className="text-xs uppercase tracking-widest text-accent mb-3">Raamatupidamine</h4>
+              <a href="mailto:raamatupidamine@voltalumen.com" className="text-sm text-secondary-foreground hover:text-primary transition-colors">
+                raamatupidamine@voltalumen.com
+              </a>
             </div>
           </div>
 
