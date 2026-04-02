@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-xs uppercase tracking-widest text-primary mb-3">Partners</h4>
+            <h4 className="text-xs uppercase tracking-widest text-accent mb-3">Partnerid</h4>
             <div className="space-y-1">
               {partners.map((p) => (
                 <a
