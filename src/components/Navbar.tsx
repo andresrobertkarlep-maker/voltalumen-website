@@ -4,7 +4,8 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { label: "Kokkuvõte", href: "#kokkuvote" },
   { label: "Tooted", href: "#tooted" },
-  { label: "Viited", href: "#viited" },
+  { label: "Fotod", href: "#fotod" },
+  { label: "Tehtud tööd", href: "#tehtud-tood" },
   { label: "Meedia", href: "#meedia" },
   { label: "Kontakt", href: "#kontakt" },
 ];
