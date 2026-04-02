@@ -12,11 +12,11 @@ const Hero = () => {
       />
       <div className="absolute inset-0 bg-foreground/70" />
       <div className="relative z-10 text-center px-4">
-        <h1 className="font-display text-5xl md:text-7xl font-bold tracking-tight text-foreground mb-4">
+        <h1 className="font-display text-5xl md:text-7xl font-bold tracking-tight text-background mb-4">
           Tipptasemel<br />
           <span className="text-primary">LED lahendused</span>
         </h1>
-        <p className="text-muted-foreground text-lg md:text-xl max-w-xl mx-auto">
+        <p className="text-background/70 text-lg md:text-xl max-w-xl mx-auto">
           Eestis toodetud valgustid kõrge töökindluse, efektiivsuse ja konkurentsivõimelise hinnaga
         </p>
       </div>
