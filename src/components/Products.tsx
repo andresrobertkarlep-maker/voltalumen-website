@@ -57,9 +57,9 @@ const productDetails: Record<string, { description: string; specs: string[]; dat
     description: "Stellar on miniatuurne laia kiirgusnurgaga valgusti, mis sobib nii dekoratiiv- ja mööblivalgustuseks kui ka ruumide üldvalguseks, avariivalgustuseks, vannituppa ning koridori. Lai valik korpuse ja valguse värvitoone lubab leida optimaalse lahenduse. Võib kasutada nii mittereguleeritava, kui ka täisjuhitava toiteplokiga, vooluga kuni 700mA. Paigaldus on tänu vedrukinnitusele lihtne ning positsioon teatud ulatuses reguleeritav. Dekoratiivlahendustes (nt. garniisid) võib paigutada 30-60cm vahega, vool kuni 350mA. Üldvalgustuseks sobib 1-2 valgustit põrandapinna ruutmeetri kohta, vool kuni 700mA.",
     specs: ["Võimsus: 1-3W", "Vool: 350–750mA", "100–180 luumenit", "Valgusnurk: ±45°", "6–8 tk toiteploki kohta", "Pinnatemperatuur: 20..70°C", "Paigaldusava: 20..30mm", "Juhtme pikkus: 200mm"],
     datasheets: [
-      { label: "Andmeleht EST", url: "https://voltalumen.com/tooted/Stellar_est.pdf" },
-      { label: "Andmeleht ENG", url: "https://voltalumen.com/tooted/Stellar_eng.pdf" },
-      { label: "Andmeleht RUS", url: "https://voltalumen.com/wp-content/uploads/2011/09/Stellar_rus.pdf" },
+      { label: "Andmeleht EST", url: "http://voltalumen.com/tooted/Stellar_est.pdf" },
+      { label: "Andmeleht ENG", url: "http://voltalumen.com/tooted/Stellar_eng.pdf" },
+      { label: "Andmeleht RUS", url: "http://voltalumen.com/wp-content/uploads/2011/09/Stellar_rus.pdf" },
     ],
   },
   Reclen: {
