@@ -66,9 +66,9 @@ const productDetails: Record<string, { description: string; specs: string[]; dat
     description: "Reclen on valgusti treppide, põrandate ning objektide dekoratiivseks ja markeerivaks valgustamiseks. Paigaldamine toimub vedru, 2 poolse teibi või liimi abil. Valgusnurk on kitsas. Treppide valgustamiseks paigaldage valgusti astme otsa, ca 20..30mm kõrgemale astmetasapinnast. Kui trepp on laiem kui 2 meetrit, võiks valgustid paigutada mõlemasse otsa. Põranda dekoratiivseks valgustamiseks sobib paigaldussamm 400mm. Kui paigaldus toimub 2 poolse teibiga, tuleb aluspind puhastada rasvast. Õlitatud pindadel (puit, parkett) on soovitatav kasutada vedrukinnitust. Toitevool ei tohi ületada 350mA.",
     specs: ["Võimsus: 1W, 350mA", "100 luumenit", "Valgusnurk: ±7°", "8 tk toiteploki kohta", "Pinnatemperatuur: 20..50°C", "Paigaldusava: 32..42mm", "Juhtme pikkus: 200mm"],
     datasheets: [
-      { label: "Andmeleht EST", url: "https://voltalumen.com/tooted/Reclen_est.pdf" },
-      { label: "Andmeleht ENG", url: "https://voltalumen.com/tooted/Reclen_eng.pdf" },
-      { label: "Andmeleht RUS", url: "https://voltalumen.com/wp-content/uploads/2011/09/Reclen_rus.pdf" },
+      { label: "Andmeleht EST", url: "http://voltalumen.com/tooted/Reclen_est.pdf" },
+      { label: "Andmeleht ENG", url: "http://voltalumen.com/tooted/Reclen_eng.pdf" },
+      { label: "Andmeleht RUS", url: "http://voltalumen.com/wp-content/uploads/2011/09/Reclen_rus.pdf" },
     ],
   },
   HE4x4FD: {
