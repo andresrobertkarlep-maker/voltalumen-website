@@ -25,51 +25,50 @@ const productDetails: Record<string, { description: string; specs: string[]; dat
     description: "Comp50 on 160mm diameetriga valgusti kaubanduspindadele, ladudele, tootmisaladele. Paigaldus toimub kas ripplakke, läbi 150mm ava, või riputatud paigaldusega. Tähtkinnituse abil võib moodustada kobara komest või viiest valgustist, see on eriti sobilik suurematele tootmispindadele.",
     specs: ["Võimsus: 50W, ~230VAC", "5000 luumenit", "Erinevad karakteristikud saadaval", "Integreeritud toiteplokk", "Mass: 1,2kg"],
     datasheets: [
-      { label: "Andmeleht EST", url: "https://voltalumen.com/wp-content/uploads/2014/03/Comp_50_est.pdf" },
-      { label: "Andmeleht ENG", url: "https://voltalumen.com/wp-content/uploads/2014/03/Comp_50_eng.pdf" },
+      { label: "Andmeleht EST", url: "http://voltalumen.com/wp-content/uploads/2014/03/Comp_50_est.pdf" },
+      { label: "Andmeleht ENG", url: "http://voltalumen.com/wp-content/uploads/2014/03/Comp_50_eng.pdf" },
     ],
   },
   LR1000: {
     description: "LR1000 on luminofoorvalgustite asendamiseks loodud tooteperekond Cree kõrgefektiivsete LEDide baasil. Saadaval on erineva kiirelaiusega modifikatsioonid. Vastavalt rakendusele oskame soovitada parimat varianti.",
     specs: ["Võimsus: 50W, ~230VAC", "5000 luumenit", "Erinevad karakteristikud saadaval", "Integreeritud toiteplokk", "Mass: 2,2kg"],
     datasheets: [
-      { label: "Andmeleht EST", url: "https://voltalumen.com/wp-content/uploads/2014/03/LR1000_est_rev2.pdf" },
-      { label: "Andmeleht ENG_W", url: "https://voltalumen.com/wp-content/uploads/2014/03/LR1000W_eng.pdf" },
-      { label: "Andmeleht ENG UW", url: "https://voltalumen.com/wp-content/uploads/2014/03/LR1000UW_eng.pdf" },
-      { label: "CE deklaratsioon", url: "https://voltalumen.com/wp-content/uploads/2014/03/LR1000_CE.pdf" },
+      { label: "Andmeleht ENG_W", url: "http://voltalumen.com/wp-content/uploads/2014/03/LR1000W_eng.pdf" },
+      { label: "Andmeleht ENG UW", url: "http://voltalumen.com/wp-content/uploads/2014/03/LR1000UW_eng.pdf" },
+      { label: "CE deklaratsioon", url: "http://voltalumen.com/wp-content/uploads/2014/03/LR1000_CE.pdf" },
     ],
   },
   MSpot: {
     description: "MSpot on võimas ja robustne valgusti fassaadide, alade ja objektide (kujud, väikevormid) valgustamiseks. Tarnitakse koos toiteplokiga MPS40. Valgusti paigaldusnurk on reguleeritav kuuskantvõtme (5mm) abil. Valgustil on purunematu PC-kaitseklaas. Toitejuhe on fikseeritud (metallist kaabliläbiviik) või pistikuga (soovitatav kasutada suuremahulistes paigaldistes). Valgusnurk on valitav (vt. datasheeti). Valgustis on kaks gruppi elemente, see lubab teha ka kahe erineva valgusnurgaga kombolahenduse, nt. lai grupp üldvalgustuseks ning kitsas grupp konkreetse objekti (uks, värav) ajutiseks väljatoomiseks.",
     specs: ["Võimsus: 40W, 800mA", "2400 luumenit", "Erinevad karakteristikud", "IP67", "Mass: 1,8kg"],
     datasheets: [
-      { label: "Andmeleht EST", url: "https://voltalumen.com/tooted/Mspot_est.pdf" },
-      { label: "Andmeleht ENG", url: "https://voltalumen.com/tooted/Mspot_eng.pdf" },
+      { label: "Andmeleht EST", url: "http://voltalumen.com/tooted/Mspot_est.pdf" },
+      { label: "Andmeleht ENG", url: "http://voltalumen.com/tooted/Mspot_eng.pdf" },
     ],
   },
   Seagull: {
     description: "\"Seagull\" on valgusti parkidele, kõnniteedele ja parkimisplatsidele. Täielikult kohandatav vastavalt kasutaja vajadustele – korpuse värv, valguse temperatuur ja lambi kuju on valitavad. Kohandatav kuju võimaldab lihtsat sobitamist keskkonnaga. Valgusti on täielikult hooldusevaba ja testitud meie rajatistes üle 3 aasta pideva tööga ilma mõõdetava degradatsioonita.",
     specs: ["Võimsus: 40W, 800mA", "2200 luumenit", "Optimeeritud valgusjaotus", "Töötemperatuur: -40..+35°C", "Paigalduskõrgus: 5..7m", "Paigaldusvahe: 12..30m", "IP67", "Mass (lamp): 5kg", "Eluiga: 10..20 aastat", "Hooldusevaba"],
     datasheets: [
-      { label: "Andmeleht ENG", url: "https://voltalumen.com/tooted/Kajakas_eng.pdf" },
+      { label: "Andmeleht ENG", url: "http://voltalumen.com/tooted/Kajakas_eng.pdf" },
     ],
   },
   Stellar: {
     description: "Stellar on miniatuurne laia kiirgusnurgaga valgusti, mis sobib nii dekoratiiv- ja mööblivalgustuseks kui ka ruumide üldvalguseks, avariivalgustuseks, vannituppa ning koridori. Lai valik korpuse ja valguse värvitoone lubab leida optimaalse lahenduse. Võib kasutada nii mittereguleeritava, kui ka täisjuhitava toiteplokiga, vooluga kuni 700mA. Paigaldus on tänu vedrukinnitusele lihtne ning positsioon teatud ulatuses reguleeritav. Dekoratiivlahendustes (nt. garniisid) võib paigutada 30-60cm vahega, vool kuni 350mA. Üldvalgustuseks sobib 1-2 valgustit põrandapinna ruutmeetri kohta, vool kuni 700mA.",
     specs: ["Võimsus: 1-3W", "Vool: 350–750mA", "100–180 luumenit", "Valgusnurk: ±45°", "6–8 tk toiteploki kohta", "Pinnatemperatuur: 20..70°C", "Paigaldusava: 20..30mm", "Juhtme pikkus: 200mm"],
     datasheets: [
-      { label: "Andmeleht EST", url: "https://voltalumen.com/tooted/Stellar_est.pdf" },
-      { label: "Andmeleht ENG", url: "https://voltalumen.com/tooted/Stellar_eng.pdf" },
-      { label: "Andmeleht RUS", url: "https://voltalumen.com/wp-content/uploads/2011/09/Stellar_rus.pdf" },
+      { label: "Andmeleht EST", url: "http://voltalumen.com/tooted/Stellar_est.pdf" },
+      { label: "Andmeleht ENG", url: "http://voltalumen.com/tooted/Stellar_eng.pdf" },
+      { label: "Andmeleht RUS", url: "http://voltalumen.com/wp-content/uploads/2011/09/Stellar_rus.pdf" },
     ],
   },
   Reclen: {
     description: "Reclen on valgusti treppide, põrandate ning objektide dekoratiivseks ja markeerivaks valgustamiseks. Paigaldamine toimub vedru, 2 poolse teibi või liimi abil. Valgusnurk on kitsas. Treppide valgustamiseks paigaldage valgusti astme otsa, ca 20..30mm kõrgemale astmetasapinnast. Kui trepp on laiem kui 2 meetrit, võiks valgustid paigutada mõlemasse otsa. Põranda dekoratiivseks valgustamiseks sobib paigaldussamm 400mm. Kui paigaldus toimub 2 poolse teibiga, tuleb aluspind puhastada rasvast. Õlitatud pindadel (puit, parkett) on soovitatav kasutada vedrukinnitust. Toitevool ei tohi ületada 350mA.",
     specs: ["Võimsus: 1W, 350mA", "100 luumenit", "Valgusnurk: ±7°", "8 tk toiteploki kohta", "Pinnatemperatuur: 20..50°C", "Paigaldusava: 32..42mm", "Juhtme pikkus: 200mm"],
     datasheets: [
-      { label: "Andmeleht EST", url: "https://voltalumen.com/tooted/Reclen_est.pdf" },
-      { label: "Andmeleht ENG", url: "https://voltalumen.com/tooted/Reclen_eng.pdf" },
-      { label: "Andmeleht RUS", url: "https://voltalumen.com/wp-content/uploads/2011/09/Reclen_rus.pdf" },
+      { label: "Andmeleht EST", url: "http://voltalumen.com/tooted/Reclen_est.pdf" },
+      { label: "Andmeleht ENG", url: "http://voltalumen.com/tooted/Reclen_eng.pdf" },
+      { label: "Andmeleht RUS", url: "http://voltalumen.com/wp-content/uploads/2011/09/Reclen_rus.pdf" },
     ],
   },
   HE4x4FD: {
@@ -197,7 +196,7 @@ const Products = () => {
               size={16}
               className={`transition-transform duration-200 ${photosOpen ? "rotate-180" : ""}`}
             />
-            Tootefotod
+            Fotod toodetest
           </button>
 
           {photosOpen && (
