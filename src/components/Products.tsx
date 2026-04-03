@@ -25,8 +25,8 @@ const productDetails: Record<string, { description: string; specs: string[]; dat
     description: "Comp50 on 160mm diameetriga valgusti kaubanduspindadele, ladudele, tootmisaladele. Paigaldus toimub kas ripplakke, läbi 150mm ava, või riputatud paigaldusega. Tähtkinnituse abil võib moodustada kobara komest või viiest valgustist, see on eriti sobilik suurematele tootmispindadele.",
     specs: ["Võimsus: 50W, ~230VAC", "5000 luumenit", "Erinevad karakteristikud saadaval", "Integreeritud toiteplokk", "Mass: 1,2kg"],
     datasheets: [
-      { label: "Andmeleht EST", url: "https://voltalumen.com/wp-content/uploads/2014/03/Comp_50_est.pdf" },
-      { label: "Andmeleht ENG", url: "https://voltalumen.com/wp-content/uploads/2014/03/Comp_50_eng.pdf" },
+      { label: "Andmeleht EST", url: "http://voltalumen.com/wp-content/uploads/2014/03/Comp_50_est.pdf" },
+      { label: "Andmeleht ENG", url: "http://voltalumen.com/wp-content/uploads/2014/03/Comp_50_eng.pdf" },
     ],
   },
   LR1000: {
