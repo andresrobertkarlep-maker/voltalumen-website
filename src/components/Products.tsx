@@ -50,7 +50,7 @@ const productDetails: Record<string, { description: string; specs: string[]; dat
     description: "\"Seagull\" on valgusti parkidele, kõnniteedele ja parkimisplatsidele. Täielikult kohandatav vastavalt kasutaja vajadustele – korpuse värv, valguse temperatuur ja lambi kuju on valitavad. Kohandatav kuju võimaldab lihtsat sobitamist keskkonnaga. Valgusti on täielikult hooldusevaba ja testitud meie rajatistes üle 3 aasta pideva tööga ilma mõõdetava degradatsioonita.",
     specs: ["Võimsus: 40W, 800mA", "2200 luumenit", "Optimeeritud valgusjaotus", "Töötemperatuur: -40..+35°C", "Paigalduskõrgus: 5..7m", "Paigaldusvahe: 12..30m", "IP67", "Mass (lamp): 5kg", "Eluiga: 10..20 aastat", "Hooldusevaba"],
     datasheets: [
-      { label: "Andmeleht ENG", url: "https://voltalumen.com/tooted/Kajakas_eng.pdf" },
+      { label: "Andmeleht ENG", url: "http://voltalumen.com/tooted/Kajakas_eng.pdf" },
     ],
   },
   Stellar: {
