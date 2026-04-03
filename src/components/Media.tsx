@@ -3,7 +3,7 @@ import { FileText, ExternalLink } from "lucide-react";
 const mediaItems = [
   {
     title: 'Elektriala detsember 2008 – "Pooljuhtvalgustitest"',
-    url: "http://voltalumen.com/meedia/Pooljuhtvalgustitest.pdf",
+    url: "https://voltalumen.com/meedia/Pooljuhtvalgustitest.pdf",
     type: "pdf" as const,
   },
   {
@@ -13,7 +13,7 @@ const mediaItems = [
   },
   {
     title: 'Mondo Arc issue 52 – "Tallink HQ project"',
-    url: "http://voltalumen.com/meedia/Mondo_Arc_issue_52.pdf",
+    url: "https://voltalumen.com/meedia/Mondo_Arc_issue_52.pdf",
     type: "pdf" as const,
   },
   {
@@ -23,7 +23,7 @@ const mediaItems = [
   },
   {
     title: 'Äripäev 08.03.10 – "Tootmine või import?"',
-    url: "http://voltalumen.com/meedia/Aripaev08.03.10.pdf",
+    url: "https://voltalumen.com/meedia/Aripaev08.03.10.pdf",
     type: "pdf" as const,
   },
 ];
