@@ -2,9 +2,8 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { label: "Kokkuvõte", href: "#kokkuvote" },
+  { label: "Tutvustus", href: "#tutvustus" },
   { label: "Tooted", href: "#tooted" },
-  { label: "Fotod", href: "#fotod" },
   { label: "Tehtud tööd", href: "#tehtud-tood" },
   { label: "Meedia", href: "#meedia" },
   { label: "Kontakt", href: "#kontakt" },
@@ -16,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="container flex items-center justify-between h-16">
-        <a href="#" className="font-display text-xl font-bold tracking-wider text-foreground">
+        <a href="https://voltalumen.ee" target="_blank" rel="noopener noreferrer" className="font-display text-xl font-bold tracking-wider text-foreground">
           VOLTA<span className="text-primary">LUMEN</span>
         </a>
 

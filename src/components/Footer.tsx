@@ -1,8 +1,8 @@
 const partners = [
-  { name: "QPC Kamitra", url: "http://www.kamitra.ee/" },
-  { name: "Volta AS", url: "http://www.volta.ee/" },
-  { name: "Volta Kinnistute OÜ", url: "http://www.volta.ee/kinnistute/" },
-  { name: "Volta Energeetika OÜ", url: "http://www.volta.ee/energeetika/" },
+  "QPC Kamitra",
+  "Volta AS",
+  "Volta Kinnistute OÜ",
+  "Volta Energeetika OÜ",
 ];
 
 const Footer = () => {
@@ -11,9 +11,9 @@ const Footer = () => {
       <div className="container max-w-3xl">
         <div className="flex flex-col md:flex-row items-start justify-between gap-8">
           <div>
-            <span className="font-display text-lg font-bold tracking-wider text-foreground">
+            <a href="https://voltalumen.ee" target="_blank" rel="noopener noreferrer" className="font-display text-lg font-bold tracking-wider text-foreground hover:text-primary transition-colors">
               VOLTA<span className="text-primary">LUMEN</span>
-            </span>
+            </a>
             <p className="text-xs text-muted-foreground mt-2">Tööstuse 47, 10416 Tallinn</p>
             <p className="text-xs text-muted-foreground">+(372) 6 120 673</p>
           </div>
@@ -21,16 +21,10 @@ const Footer = () => {
           <div>
             <h4 className="text-xs uppercase tracking-widest text-accent mb-3">Partnerid</h4>
             <div className="space-y-1">
-              {partners.map((p) => (
-                <a
-                  key={p.name}
-                  href={p.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block text-xs text-muted-foreground hover:text-primary transition-colors"
-                >
-                  {p.name}
-                </a>
+              {partners.map((name) => (
+                <p key={name} className="text-xs text-muted-foreground">
+                  {name}
+                </p>
               ))}
             </div>
           </div>
