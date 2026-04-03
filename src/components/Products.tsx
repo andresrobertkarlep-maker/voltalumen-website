@@ -33,10 +33,9 @@ const productDetails: Record<string, { description: string; specs: string[]; dat
     description: "LR1000 on luminofoorvalgustite asendamiseks loodud tooteperekond Cree kõrgefektiivsete LEDide baasil. Saadaval on erineva kiirelaiusega modifikatsioonid. Vastavalt rakendusele oskame soovitada parimat varianti.",
     specs: ["Võimsus: 50W, ~230VAC", "5000 luumenit", "Erinevad karakteristikud saadaval", "Integreeritud toiteplokk", "Mass: 2,2kg"],
     datasheets: [
-      { label: "Andmeleht EST", url: "https://voltalumen.com/wp-content/uploads/2014/03/LR1000_est_rev2.pdf" },
-      { label: "Andmeleht ENG_W", url: "https://voltalumen.com/wp-content/uploads/2014/03/LR1000W_eng.pdf" },
-      { label: "Andmeleht ENG UW", url: "https://voltalumen.com/wp-content/uploads/2014/03/LR1000UW_eng.pdf" },
-      { label: "CE deklaratsioon", url: "https://voltalumen.com/wp-content/uploads/2014/03/LR1000_CE.pdf" },
+      { label: "Andmeleht ENG_W", url: "http://voltalumen.com/wp-content/uploads/2014/03/LR1000W_eng.pdf" },
+      { label: "Andmeleht ENG UW", url: "http://voltalumen.com/wp-content/uploads/2014/03/LR1000UW_eng.pdf" },
+      { label: "CE deklaratsioon", url: "http://voltalumen.com/wp-content/uploads/2014/03/LR1000_CE.pdf" },
     ],
   },
   MSpot: {
