@@ -42,8 +42,8 @@ const productDetails: Record<string, { description: string; specs: string[]; dat
     description: "MSpot on võimas ja robustne valgusti fassaadide, alade ja objektide (kujud, väikevormid) valgustamiseks. Tarnitakse koos toiteplokiga MPS40. Valgusti paigaldusnurk on reguleeritav kuuskantvõtme (5mm) abil. Valgustil on purunematu PC-kaitseklaas. Toitejuhe on fikseeritud (metallist kaabliläbiviik) või pistikuga (soovitatav kasutada suuremahulistes paigaldistes). Valgusnurk on valitav (vt. datasheeti). Valgustis on kaks gruppi elemente, see lubab teha ka kahe erineva valgusnurgaga kombolahenduse, nt. lai grupp üldvalgustuseks ning kitsas grupp konkreetse objekti (uks, värav) ajutiseks väljatoomiseks.",
     specs: ["Võimsus: 40W, 800mA", "2400 luumenit", "Erinevad karakteristikud", "IP67", "Mass: 1,8kg"],
     datasheets: [
-      { label: "Andmeleht EST", url: "https://voltalumen.com/tooted/Mspot_est.pdf" },
-      { label: "Andmeleht ENG", url: "https://voltalumen.com/tooted/Mspot_eng.pdf" },
+      { label: "Andmeleht EST", url: "http://voltalumen.com/tooted/Mspot_est.pdf" },
+      { label: "Andmeleht ENG", url: "http://voltalumen.com/tooted/Mspot_eng.pdf" },
     ],
   },
   Seagull: {
