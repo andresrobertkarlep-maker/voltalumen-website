@@ -1,29 +1,14 @@
-import { FileText, ExternalLink } from "lucide-react";
+import { FileText } from "lucide-react";
+
+/* ═══════════════════════════════════════════════════════════════
+   MEEDIAKAJASTUS — Lisa või eemalda meedialinke allpool.
+   Iga kirje koosneb: title, url, type ("pdf" | "link").
+   ═══════════════════════════════════════════════════════════════ */
 
 const mediaItems = [
   {
-    title: 'Elektriala detsember 2008 – "Pooljuhtvalgustitest"',
-    url: "https://voltalumen.com/meedia/Pooljuhtvalgustitest.pdf",
-    type: "pdf" as const,
-  },
-  {
-    title: "Volta valmistab valguslahenduse innovatiivse fassaadiga Tallinki büroohoonele",
-    url: "http://hei.eas.ee/index.php?option=com_content&view=article&id=234:uudised&catid=55:2008-november",
-    type: "link" as const,
-  },
-  {
     title: 'Mondo Arc issue 52 – "Tallink HQ project"',
-    url: "https://voltalumen.com/meedia/Mondo_Arc_issue_52.pdf",
-    type: "pdf" as const,
-  },
-  {
-    title: 'AK 23.12.09 – "Võidusamba valguslahendusi pole vaja kaugelt otsida"',
-    url: "http://uudised.err.ee/external/iframeplayer/uudised_iframe.php?playmode=startvideo&lng=0&vid=28889",
-    type: "link" as const,
-  },
-  {
-    title: 'Äripäev 08.03.10 – "Tootmine või import?"',
-    url: "https://voltalumen.com/meedia/Aripaev08.03.10.pdf",
+    url: "http://voltalumen.com/meedia/Mondo_Arc_issue_52.pdf",
     type: "pdf" as const,
   },
 ];
@@ -45,11 +30,7 @@ const Media = () => {
               <span className="text-secondary-foreground text-sm group-hover:text-foreground transition-colors">
                 {item.title}
               </span>
-              {item.type === "pdf" ? (
-                <FileText size={16} className="text-primary flex-shrink-0" />
-              ) : (
-                <ExternalLink size={16} className="text-primary flex-shrink-0" />
-              )}
+              <FileText size={16} className="text-primary flex-shrink-0" />
             </a>
           ))}
         </div>

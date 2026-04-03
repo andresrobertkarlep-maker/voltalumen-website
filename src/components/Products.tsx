@@ -197,7 +197,7 @@ const Products = () => {
               size={16}
               className={`transition-transform duration-200 ${photosOpen ? "rotate-180" : ""}`}
             />
-            Tootefotod
+            Fotod toodetest
           </button>
 
           {photosOpen && (
